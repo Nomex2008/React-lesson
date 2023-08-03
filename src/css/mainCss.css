@@ -1,0 +1,65 @@
+/*shopContact*/
+.shopContact{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+    align-items: center;
+    padding: 40px 20px;
+}
+.shopContact__title{
+    color: #fff;
+    font-size: 26px;
+
+    margin-bottom: 20px;
+}
+.shopContact__btn{
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 15px;
+
+    margin: 0 10px;
+
+    position: relative;
+}
+.shopContact__btn:after{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 4px;
+    background-color: #fe0000;
+
+    position: absolute;
+    bottom: 200%;
+    right: 33%;
+}
+.shopContact__btn.add:before{
+    content: '';
+    display: block;
+    width: 4px;
+    height: 25px;
+    background-color: #fe0000;
+
+    position: absolute;
+    bottom: 170%;
+    right: 45%;
+}
+/*Post*/
+.post {
+    width: 800px;
+    margin: 0 auto;
+
+    margin-top: 15px;
+}
+.post__content {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__btns {
+    padding: 5px;
+    border-radius: 3px;
+
+    border: 1px solid #000;
+}

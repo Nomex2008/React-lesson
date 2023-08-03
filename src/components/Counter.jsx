@@ -17,11 +17,13 @@ const Counter = function (){
         }
     }
 
+    //react DOM
+
     return(
         <div className="shopContact">
             <h1 className="shopContact__title">{count}</h1>
-            <button className="shopContact__btn add" onClick={increment}>Increment</button>
             <button className="shopContact__btn" onClick={decrement}>Decrement</button>
+            <button className="shopContact__btn add" onClick={increment}>Increment</button>
         </div>
     )
 }
