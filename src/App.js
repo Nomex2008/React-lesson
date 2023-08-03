@@ -16,9 +16,9 @@ function App() {
     <div className="App">
 
       <Counter/>
-      <Post post={{id:1, title:"JavaScript - program language.", body:". JavaScript", btn:"Delete",}}/>
-      <Post post={{id:2, title:"C# - program language.", body:". C#", btn:"Delete",}}/>
-      <Post post={{id:3, title:"React - no program language.", body:". React", btn:"Delete",}}/>
+      <Post post={{id:1,name:'a', title:"JavaScript - program language.", body:". JavaScript", btn:"Delete",}}/>
+      <Post post={{id:2,name:'b', title:"C# - program language.", body:". C#", btn:"Delete",}}/>
+      <Post post={{id:3,name:'c', title:"React - no program language.", body:". React", btn:"Delete",}}/>
     </div>
   );
 }
