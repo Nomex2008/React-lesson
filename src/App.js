@@ -1,30 +1,14 @@
 import React from "react";
+import Counter from "./components/Counter";
 
 function App() {
-
-  let likes = 9;
-
-  function likesSea () {
-    if(likes === -1){
-      likes = 0
-    }
-  }
+  //useState
+  //let [value,setValue] = useState('Text in input')
+  //Main DOM react
   return (
 
     <div className="App">
-
-      <button onClick={() => {
-        likes=likes+1;
-        likesSea();
-        console.log(likes);
-      }}>Increment</button>
-
-      <button  onClick={() => {
-        likes=likes-1;
-        likesSea();
-        console.log(likes);
-      }}>Decrement</button>
-
+      <Counter/>
     </div>
   );
 }
