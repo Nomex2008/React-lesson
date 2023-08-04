@@ -3,6 +3,9 @@ import React, { useState } from "react";
 //components
 import Counter from "./components/Counter";
 import PostList from "./components/PostList";
+//UI
+//Mybtn
+import MyButton from "./components/UI/button/MyButton";
 //css
 import "./css/bigReset.css";
 import "./css/mainCss.css";
@@ -25,6 +28,9 @@ function App() {
 
     <div className="App">
 
+      {
+        //counter
+      }
       <Counter/>
 
       {
@@ -33,6 +39,17 @@ function App() {
       <PostList posts={posts} title="List of posts 1"/>
       <PostList posts={posts2} title="List of posts 2"/>
       
+      {
+        //form
+      }
+      <form>
+        <input type="text" placeholder="Name Post"/>
+        <input type="text" placeholder="Info about Post"/>
+        
+        <MyButton>
+          Create Post
+        </MyButton>
+      </form>
     </div>
   );
 }

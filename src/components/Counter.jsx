@@ -6,8 +6,10 @@ const Counter = function (){
     //count
 
     function increment() {
-        setCount(count + 1)
-        console.log(count + 1);
+        if (count < 100) {
+            setCount(count + 1)
+            console.log(count + 1);
+        }
     }
 
     function decrement() {
