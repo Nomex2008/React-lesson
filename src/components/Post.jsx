@@ -9,7 +9,7 @@ const Post = function (props) {
         console.log(post__btn)
         post__btn.classList.add("none")
     }
-
+    
     //react DOM
     return(
         <div id={props.post.name} className="post">
