@@ -67,3 +67,10 @@
 
     border: 1px solid #000;
 }
+/*MyForm*/
+.MyForm{
+    margin: 0 auto;
+    width: 800px;
+
+    margin-top: 30px;
+}

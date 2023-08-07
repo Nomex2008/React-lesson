@@ -14,7 +14,7 @@ const Post = function (props) {
     return(
         <div id={props.post.name} className="post">
             <div className="post__content">
-                <strong>{props.post.id}{props.post.body}</strong>
+                <strong>{props.number}{props.post.body}</strong>
                 <div>
                     {props.post.title}
                 </div>
